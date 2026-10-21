@@ -1,6 +1,6 @@
-# ONLYOFFICE Document Server roadmap
+# OA Docs Document Server roadmap
 
-This document provides the roadmap of the planned ONLYOFFICE Document Server changes.
+This document provides the roadmap of the planned OA Docs Document Server changes.
 
 This is an updated and corrected version of the roadmap.
 We also reserve the right to change it when necessary.

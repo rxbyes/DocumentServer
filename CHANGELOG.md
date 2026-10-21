@@ -1385,7 +1385,7 @@ ApiChart.prototype.GetTitle = function ()
 #### Spreadsheet Editor
 
 * Fixed an issue with data overlap when transferring sheets between documents
-via Move or Copy ([DocumentServer#3512](https://github.com/ONLYOFFICE/DocumentServer/issues/3512))
+via Move or Copy ([DocumentServer#3512](https://github.com/OA Docs/DocumentServer/issues/3512))
 
 #### PDF Editor
 
@@ -1629,7 +1629,7 @@ onBlurAnnotation
 
 #### WOPI
 
-* Added support for the `UserCanOnlyComment` parameter in [`CheckFileInfo`](https://api.onlyoffice.com/docs/docs-api/using-wopi/wopi-rest-api/checkfileinfo/)
+* Added support for the `UserCanOnlyComment` parameter in [`CheckFileInfo`](https://github.com/rxbyes/DocumentServer)
   for opening in the commenting mode. The behavior is similar to
   `document.permissions.comment` in our API
 * Added opening in the View mode with an error message if it was not possible
@@ -1759,7 +1759,7 @@ ApiPathCommand.prototype.GetSweepAngle()
 
 * Added AI, Photo Editor, MathType, OCR, Typograf, Doc2md, LanguageTool,
 DeepL, Thesaurus, Speech input and Zotero plugins to the server version
-distribution with ONLYOFFICE branding
+distribution with OA Docs branding
 
 ### Fixes
 
@@ -1870,7 +1870,7 @@ between several document servers
 #### Spreadsheet Editor
 
 * Enabled the ability to insert a range of cells as an image
-  using navigator.clipboard ([DocumentServer#985](https://github.com/ONLYOFFICE/DocumentServer/issues/985))
+  using navigator.clipboard ([DocumentServer#985](https://github.com/OA Docs/DocumentServer/issues/985))
 
 #### Customization
 
@@ -1895,12 +1895,12 @@ between several document servers
 * Fixed a crash when restoring a placeholder with a list when deleting
   Content Control content
 * Fixed significant increasing of the file size due to including CJK fonts
-  when exporting to `PDF` ([DocumentServer#2934](https://github.com/ONLYOFFICE/DocumentServer/issues/2934))
+  when exporting to `PDF` ([DocumentServer#2934](https://github.com/OA Docs/DocumentServer/issues/2934))
 
 #### Spreadsheet Editor
 
 * Fixed stopping work of the editor when trying to reference
-  a cell with a formula ([DocumentServer#3314](https://github.com/ONLYOFFICE/DocumentServer/issues/3314))
+  a cell with a formula ([DocumentServer#3314](https://github.com/OA Docs/DocumentServer/issues/3314))
 * Fixed appearing the #NAME error in the final file when using
   a custom function and exporting to `PDF`
 * Fixed a problem with saving custom function to a file
@@ -1909,7 +1909,7 @@ between several document servers
 * Fixed display of the Zoom option value in the bottom toolbar in RTL UI
   with the Sheet RTL option disabled
 * Fixed the incorrect position of the percent sign in the status bar for Zoom
-  with Chinese (Simplified) ([DocumentServer#3313](https://github.com/ONLYOFFICE/DocumentServer/issues/3313))
+  with Chinese (Simplified) ([DocumentServer#3313](https://github.com/OA Docs/DocumentServer/issues/3313))
 
 #### Presentation Editor
 
@@ -2364,11 +2364,11 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 #### Document Editor
 
-* Fixed calculation for an RTL paragraph ([DocumentServer#2590](https://github.com/ONLYOFFICE/DocumentServer/issues/2590))
+* Fixed calculation for an RTL paragraph ([DocumentServer#2590](https://github.com/OA Docs/DocumentServer/issues/2590))
 * Fixed the display of the Bullets / Numbering / Multilevel style thumbnails
   for an RTL paragraph
 * Fixed the display of numbered lists (bullets) for an RTL paragraph
-  ([DocumentServer#3118](https://github.com/ONLYOFFICE/DocumentServer/issues/3118))
+  ([DocumentServer#3118](https://github.com/OA Docs/DocumentServer/issues/3118))
 * Fixed the display of the date for Arabic in the Formats list
   of the "Date & time" window
 * Replaced Latin commas with Arabic ones when using Arabic format
@@ -2376,12 +2376,12 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed an issue with calculating position for an empty RTL template
 * Fixed changing the Wrapping Style value when applying
   Merge shapes / Arrange > Group
-* Enabled standard ligatures for Arabic text writing ([DocumentServer#3115](https://github.com/ONLYOFFICE/DocumentServer/issues/3115))
+* Enabled standard ligatures for Arabic text writing ([DocumentServer#3115](https://github.com/OA Docs/DocumentServer/issues/3115))
 * Fixed the display of Borders and Fill when rendering an RTL paragraph
 * Fixed incorrect work when comparing files at the word level, where a word
   and a paragraph mark were deleted
 * Fixed adding TextArt for a paragraph with RTL direction
-  ([DocumentServer#3132](https://github.com/ONLYOFFICE/DocumentServer/issues/3132))
+  ([DocumentServer#3132](https://github.com/OA Docs/DocumentServer/issues/3132))
 * Fixed autonumbering for Indian numbers added via Unicode (U+0660 - U+0669)
 * Fixed the ability to select a numbered list deleted in the review mode
 * Fixed the display of words with tabulation according to the main direction
@@ -2391,7 +2391,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed an issue with the cursor placement in Arabic text for a paragraph
   with LTR direction
 * Fixed incorrect display of French quotes « » (U+00AB and U+00BB )
-  for RTL text ([DocumentServer#3177](https://github.com/ONLYOFFICE/DocumentServer/issues/3177))
+  for RTL text ([DocumentServer#3177](https://github.com/OA Docs/DocumentServer/issues/3177))
 * Fixed calculation of the tab stop position in some edge situations
 * Fixed an issue with calculating the right edge for a paragraph with fill
   and border
@@ -2411,11 +2411,11 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 * Fixed stopping work of the editor when opening the numbered list panel
 * Fixed an error when saving/opening the `PPTX` file with animation applied
-  to several Lines objects ([DocumentServer#3191](https://github.com/ONLYOFFICE/DocumentServer/issues/3191))
+  to several Lines objects ([DocumentServer#3191](https://github.com/OA Docs/DocumentServer/issues/3191))
 * Fixed an issue with maintaining direction for RTL text when opening
   some `PPT` files
 * Fixed generating unique Shape name identifier for the Lines objects
-  ([DocumentServer#3192](https://github.com/ONLYOFFICE/DocumentServer/issues/3192))
+  ([DocumentServer#3192](https://github.com/OA Docs/DocumentServer/issues/3192))
 * Fixed incorrect translations of tools in the Draw menu of the Presenter View window
 
 #### PDF Editor
@@ -2453,7 +2453,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   some `DOCX` files
 * Fixed an issue with calculation of a float shape position in the header
 * Fixed navigation using the Arrow Left / Arrow Right keys in Arabic text
-  ([DocumentServer#3114](https://github.com/ONLYOFFICE/DocumentServer/issues/3114))
+  ([DocumentServer#3114](https://github.com/OA Docs/DocumentServer/issues/3114))
 * Fixed the cursor position when entering LTR text in a RTL paragraph
 * Fixed calculation of the cursor position for the last line of a RTL paragraph
 * Fixed the display of margins for a RTL paragraph
@@ -2483,13 +2483,13 @@ ApiFormRoles.prototype.MoveDown = function(name)
   exported `XLSX` files with external links
 * Fixed display of the WMF images when opening some `ODS` files
 * Fixed copying/pasting the Locked Cell property in the Protect Sheet mode
-  ([DocumentServer#2385](https://github.com/ONLYOFFICE/DocumentServer/issues/2385))
+  ([DocumentServer#2385](https://github.com/OA Docs/DocumentServer/issues/2385))
 * Fixed an error that occurred when opening some `XLSX` files for viewing
 
 #### Presentation Editor
 
 * Fixed an error that occurred in third-party editors when opening
-  some exported `PPTX` files ([DocumentServer#2951](https://github.com/ONLYOFFICE/DocumentServer/issues/2951))
+  some exported `PPTX` files ([DocumentServer#2951](https://github.com/OA Docs/DocumentServer/issues/2951))
 * Fixed using the Merge shapes option in Fast co-editing mode when opening
   some `PPTX` files
 * Fixed work of the Eraser Screen option in the Presenter window
@@ -2534,7 +2534,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 #### PDF Editor
 
-* Added the ability to move pages in `PDF` files ([DocumentServer#1749](https://github.com/ONLYOFFICE/DocumentServer/issues/3052))
+* Added the ability to move pages in `PDF` files ([DocumentServer#1749](https://github.com/OA Docs/DocumentServer/issues/3052))
 
 #### Customization
 
@@ -2549,9 +2549,9 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 * Fixed stopping work of the editor when pasting a large amount of copied data
 * Fixed crash after entering the minus sign after the equation
-  ([DocumentServer#3120](https://github.com/ONLYOFFICE/DocumentServer/issues/3120))
+  ([DocumentServer#3120](https://github.com/OA Docs/DocumentServer/issues/3120))
 * Fixed crash after entering a character before the division sign
-  ([DocumentServer#3119](https://github.com/ONLYOFFICE/DocumentServer/issues/3119))
+  ([DocumentServer#3119](https://github.com/OA Docs/DocumentServer/issues/3119))
 * Fixed stopping work of the editor when building some `DOCX` files where
   the table of contents was updated
 * Fixed an issue with undone changes when turning off and on the "Show changes
@@ -2583,7 +2583,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed crash of the editor after undoing an action on a sheet deleted
   by another user in Fast co-editing
 * Fixed stopping work of the editor when entering data in some `XLSX` files
-  ([DocumentServer#3140](https://github.com/ONLYOFFICE/DocumentServer/issues/3140))
+  ([DocumentServer#3140](https://github.com/OA Docs/DocumentServer/issues/3140))
 * Fixed crash of the editor after redoing the sheet movement
 * Fixed stopping work of the editor after trying to select a value in a cell
   in some `XLSX` files
@@ -2609,12 +2609,12 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed saving the sorting specified in the view if the `XLSX` file is opened
   in the "Without access to change the filter" mode
 * Fixed saving the Freeze Panes position after reloading the `XLSX` document
-  ([DocumentServer#3124](https://github.com/ONLYOFFICE/DocumentServer/issues/3124))
+  ([DocumentServer#3124](https://github.com/OA Docs/DocumentServer/issues/3124))
 * Fixed filling of filtered/hidden data in cells in the view mode (Sheet View)
 * Fixed appearing the empty row after moving between two others
 * Fixed the ability to scroll the sheet when filling cells with data on HiDPI monitors
 * Fixed work of horizontal sheet scrolling with `Shift` + `Mouse Wheel`
-  on macOS ([DocumentServer#3040](https://github.com/ONLYOFFICE/DocumentServer/issues/3040))
+  on macOS ([DocumentServer#3040](https://github.com/OA Docs/DocumentServer/issues/3040))
 
 #### Presentation Editor
 
@@ -2626,7 +2626,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   without reloading the editor page
 * Fixed an issue with table display when exporting some `PPTX` files to `ODP`
 * Fixed display of the first characters of a word when using the Morph
-  transition with the Words / Letters parameter ([DocumentServer#3096](https://github.com/ONLYOFFICE/DocumentServer/issues/3096))
+  transition with the Words / Letters parameter ([DocumentServer#3096](https://github.com/OA Docs/DocumentServer/issues/3096))
 * Fixed changing the Flip parameter for images after exporting
   some `PPTX` files to `ODF`
 * Fixed shifting of the Draw icon on the toolbar in the Slideshow mode
@@ -2791,14 +2791,14 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * For the new scheme to work, the following have been added:
   * the `onRequestRefreshFile` event, which should be processed by the integrator;
   * the `refreshFile` method, to which it is necessary to transfer the data
-  recommended for opening the document (according to [documentation](https://api.onlyoffice.com/docs/docs-api/additional-api/signature/browser/#opening-file));
+  recommended for opening the document (according to [documentation](https://github.com/rxbyes/DocumentServer));
   * in case of using Wopi, the file version will be updated without the need for
   changes on the part of the integrator;
   * if the integrator has not implemented support for the new scheme, the work
   will be carried out as before — via the `onOutdatedVersion` event
 * Added [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
   to control caching of statics on the editors page
-* The [drop](https://api.onlyoffice.com/docs/docs-api/additional-api/command-service/drop/)
+* The [drop](https://github.com/rxbyes/DocumentServer)
   command without the users parameter now closes editing for all users editing
   the key document
 * Added the ability to use the multitenancy Boolean field without the alias
@@ -2851,7 +2851,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 #### Package
 
-* Added the new ONLYOFFICE DocumentServer Prerequisites installer containing
+* Added the new OA Docs DocumentServer Prerequisites installer containing
   all the necessary components for the installation of the product which makes
   it possible to install it without an Internet connection
 
@@ -2870,7 +2870,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 #### All Editors
 
 * Fixed the ability to read out a document in the Firefox browser using
-  the screenreader ([DocumentServer#2837](https://github.com/ONLYOFFICE/DocumentServer/issues/2837))
+  the screenreader ([DocumentServer#2837](https://github.com/OA Docs/DocumentServer/issues/2837))
 * Fixed displaying some chart types when opening the `DOCX` or `PPTX` documents
 * Fixed availability of buttons on the right panel when the zoom is higher
   than 200%
@@ -2931,7 +2931,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 #### Compilation
 
 * Fixed missing files in the `core/Common/3dParty/` folder during compilation
-  ([build_tools#884](https://github.com/ONLYOFFICE/build_tools/issues/884))
+  ([build_tools#884](https://github.com/OA Docs/build_tools/issues/884))
   
 ## 8.2.1
 
@@ -2955,7 +2955,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed calculating footnotes in the extreme case when there is no space even
   for 1 line
 * Fixed an issue with the exact row height support when opening `DOCX` files
-  ([DocumentServer#2960](https://github.com/ONLYOFFICE/DocumentServer/issues/2960))
+  ([DocumentServer#2960](https://github.com/OA Docs/DocumentServer/issues/2960))
 * Fixed stopping work of the editors when updating the editor without saving
   changes
 * Fixed stopping work of the editor when moving the magnifying glass tool
@@ -2967,12 +2967,12 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed the presence of artifacts when applying strikethrough or double
   strikethrough in a formula
 * Fixed calculation of a math equation that was split into multiple lines
-  ([DocumentServer#2173](https://github.com/ONLYOFFICE/DocumentServer/issues/2173))
+  ([DocumentServer#2173](https://github.com/OA Docs/DocumentServer/issues/2173))
 * Fixed text offset in autoshapes when opening some `DOCX` files
 * Fixed table offset in header when opening some `DOCX` files
 * Fixed text offset when opening some `DOCX` files
 * Fixed saving some `SVG` images when exporting `DOCX` to `PDF`
-  ([DocumentServer#2792](https://github.com/ONLYOFFICE/DocumentServer/issues/2792))
+  ([DocumentServer#2792](https://github.com/OA Docs/DocumentServer/issues/2792))
 * Fixed removing a section break after converting some `RTF` files to `DOCX`
 * Fixed removing the Title and Tag properties when moving the Content Control
   that contains an image
@@ -2987,9 +2987,9 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 * Fixed correct work of data validation specified with the `LEFT` formula
 * Fixed consideration of the time zone when inserting a date using `Ctrl` + `;`
-  ([DocumentServer #2446](https://github.com/ONLYOFFICE/DocumentServer/issues/2446))
+  ([DocumentServer #2446](https://github.com/OA Docs/DocumentServer/issues/2446))
 * Fixed stopping work of the editor when copying the cell, containing a link to
-  an external file ([DocumentServer#2911](https://github.com/ONLYOFFICE/DocumentServer/issues/2911))
+  an external file ([DocumentServer#2911](https://github.com/OA Docs/DocumentServer/issues/2911))
 * Fixed stopping work of the editor when changing the column width using a stylus
 * Fixed long opening of some `XLSX` files which causes stopping work of the editor
 * Fixed displaying autoshapes containing a macro mechanism
@@ -3004,7 +3004,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed selecting fractional numbers using Goal Seek
 * Fixed incorrect rounding when using the `ROUNDUP` function
 * Fixed creating data array as a result of calculating the `VLOOKUP` function
-  if the argument is not an array ([DocumentServer#2956](https://github.com/ONLYOFFICE/DocumentServer/issues/2956))
+  if the argument is not an array ([DocumentServer#2956](https://github.com/OA Docs/DocumentServer/issues/2956))
 * Fixed the rendering artifacts for some cases when scrolling the content
   of the sheet
 * Fixed the dependence of the scroll step on the system scale
@@ -3040,7 +3040,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed moving graphic objects after their rotation
   in the Sheet Right-to-left mode
 * Fixed the displayed number of rows or columns exceeding specification limits
-  ([DocumentServer#2938](https://github.com/ONLYOFFICE/DocumentServer/issues/2938))
+  ([DocumentServer#2938](https://github.com/OA Docs/DocumentServer/issues/2938))
 
 #### Presentation Editor
 
@@ -3053,7 +3053,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   `PPTX` files
 * Fixed changing the color scheme when opening some `PPTX` files
 * Fixed the ability to apply columns for a group of SmartArt objects
-  ([DocumentServer#2940](https://github.com/ONLYOFFICE/DocumentServer/issues/2940))
+  ([DocumentServer#2940](https://github.com/OA Docs/DocumentServer/issues/2940))
 * Fixed clipping of transition names in Arabic for the browser zoom of 125%
   and higher
 * Fixed applying object formatting performed on a parent slide
@@ -3250,9 +3250,9 @@ ApiFormRoles.prototype.MoveDown = function(name)
   for connection to MySQL, including SSL
 * Added the `servicesCoAuthoring.server.forceSaveUsingButtonWithoutChanges`
   option to save the file when force saving by pressing the button without changes
-* Added the `users` parameter, similar to `users` in [callback handler](https://api.onlyoffice.com/editors/callback#users)
+* Added the `users` parameter, similar to `users` in [callback handler](https://github.com/rxbyes/DocumentServer)
   in the response to the
-  [`info`](https://api.onlyoffice.com/editors/command/info) command
+  [`info`](https://github.com/rxbyes/DocumentServer) command
 * The `handlers` `ConvertService.ashx` and `coauthoring/CommandService.ashx`
   are deprecated, it is recommended to use `converter` and `command` instead
 * The ability to make a `GET` request to `converter` and `command`
@@ -3266,16 +3266,16 @@ ApiFormRoles.prototype.MoveDown = function(name)
 #### Customization
 
 * Extend support for the
-  [`editorConfig.region`](https://api.onlyoffice.com/editors/config/editor#region)
+  [`editorConfig.region`](https://github.com/rxbyes/DocumentServer)
   parameter in the editor's config:
 
   in all editors, this parameter is used to define the default unit
   of measurement (for regions us-..., ca-... inches are used by default,
   unless otherwise specified in the
-  [`customization.unit`](https://api.onlyoffice.com/editors/config/editor/customization#unit)
+  [`customization.unit`](https://github.com/rxbyes/DocumentServer)
   parameter;
 
-  support for the [`editorConfig.location`](https://api.onlyoffice.com/editors/config/editor#location)
+  support for the [`editorConfig.location`](https://github.com/rxbyes/DocumentServer)
   parameter, which was used previously, will be discontinued;
   
   the `region` parameter also sets the default numeric format and date/time
@@ -3354,7 +3354,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed crash when moving autoshape
 * Fixed crash in TextShaper when using composite input
 * Fixed scroll to target when updating the position of a view port
-  in collaborative editing [DocumentServer#2428](https://github.com/ONLYOFFICE/DocumentServer/issues/2428)
+  in collaborative editing [DocumentServer#2428](https://github.com/OA Docs/DocumentServer/issues/2428)
 * Added the ability to prevent scrolling to the current position when
   performing any action
 * Fixed review types for added paragraphs
@@ -3369,7 +3369,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed freeze when moving through review changes
 * Implemented display/accept/reject for review change of a table cell
 * Fixed an issue with accepting/rejecting review changes inside a block-level
-  sdt [DocumentServer#2669](https://github.com/ONLYOFFICE/DocumentServer/issues/2669)
+  sdt [DocumentServer#2669](https://github.com/OA Docs/DocumentServer/issues/2669)
 * Fixed an issue with recalculating table
 * Fixed clearing table cells before moving them
 * Fixed cursor moving down when selected table cells
@@ -3389,15 +3389,15 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed crash for some usages of the `IMPORTRANGE` formula
 * Fixed crash when entering Korean characters into the formula bar in Firefox
 * Fixed incorrect formula conversion when using a link to a file
-* Fixed crash when opening some `XLSX` files [DocumentServer#2782](https://github.com/ONLYOFFICE/DocumentServer/issues/2782)
+* Fixed crash when opening some `XLSX` files [DocumentServer#2782](https://github.com/OA Docs/DocumentServer/issues/2782)
 * Fixed inserting an empty column after moving a column
-  with data [DocumentServer#2499](https://github.com/ONLYOFFICE/DocumentServer/issues/2499)
+  with data [DocumentServer#2499](https://github.com/OA Docs/DocumentServer/issues/2499)
 * Fixed changing line height after applying Merge and Wrap Text, if the text
   extends the cell boundaries
 * Colors of row and column headers when hovering the cursor now correspond
   to color schemes
 * Fixed formula calculation if there is an intersection with a formatted table
-  [DocumentServer#2799](https://github.com/ONLYOFFICE/DocumentServer/issues/2799)
+  [DocumentServer#2799](https://github.com/OA Docs/DocumentServer/issues/2799)
 * Fixed formula calculation if they contain Named ranges
 * Fixed creating named ranges in languages with ligatures
 * Fixed applying a number format when calculating a formula in the total row
@@ -3425,7 +3425,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed work of the Play/Pause buttons in the viewing window
   in the Slideshow mode
 * Fixed layering of objects when they are grouped when opening some
-  `PPTX` files [DocumentServer#2573](https://github.com/ONLYOFFICE/DocumentServer/issues/2573)
+  `PPTX` files [DocumentServer#2573](https://github.com/OA Docs/DocumentServer/issues/2573)
 * Fixed work of internal hyperlinks when using the Next Slide parameters
 * Fixed work of `Enter` / `Space` / `Arrow Right` / `Arrow Left` keys
   in the Slideshow mode
@@ -3442,7 +3442,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 #### Forms
 
-* Fixed crash when filling in fields in some forms [DocumentServer#2768](https://github.com/ONLYOFFICE/DocumentServer/issues/2768)
+* Fixed crash when filling in fields in some forms [DocumentServer#2768](https://github.com/OA Docs/DocumentServer/issues/2768)
 * Prevent a checkbox from toggling when moving it
 * Fixed the conversion of a fixed form to an inline
 * Improved finding anchor position around inline forms
@@ -3512,7 +3512,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   `PDF` file
 * Fixed display of presentation theme after exporting some `PPTX` to `PDF/A`
 * Fixed the "Decimal" and "Use 1000 separator" options loss when exporting
-  `XLSX` to `CSV` [DesktopEditors#821](https://github.com/ONLYOFFICE/DesktopEditors/issues/821)
+  `XLSX` to `CSV` [DesktopEditors#821](https://github.com/OA Docs/DesktopEditors/issues/821)
 
 #### Mobile
 
@@ -3526,7 +3526,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed hanging of the `DsProxy` service in EXE packages, if the document
   is open for editing
 * Fixed validation of connection to `rabbitmq` when installing the EXE package,
-  if a non-root `vhost` is used [DocumentServer#2773](https://github.com/ONLYOFFICE/DocumentServer/issues/2773)
+  if a non-root `vhost` is used [DocumentServer#2773](https://github.com/OA Docs/DocumentServer/issues/2773)
 
 ## 8.1.0
 
@@ -3646,7 +3646,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Files opened using `WOPI`: Save Copy as [added](https://learn.microsoft.com/en-us/microsoft-365/cloud-storage-partner-program/rest/files/putrelativefile#post-wopifilesfile_id)
 * When opening `PDFs` in form filling mode using `WOPI`, new discovery action
   formsubmit is [active](https://learn.microsoft.com/en-us/microsoft-365/cloud-storage-partner-program/online/discovery#formsubmit)
-* [Added](https://api.onlyoffice.com/editors/wopi/hostpage) the
+* [Added](https://github.com/rxbyes/DocumentServer) the
   `docs_api_config` parameter of the editor opening form
   via `WOPI` which passes a part of the config for opening the editor
   to the `Docs API`
@@ -3701,7 +3701,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 #### Document Editor
 
-* Fix crash when clicking comment inside a math equation ([DocumentServer#2556](https://github.com/ONLYOFFICE/DocumentServer/issues/2556))
+* Fix crash when clicking comment inside a math equation ([DocumentServer#2556](https://github.com/OA Docs/DocumentServer/issues/2556))
 * Fix crash when using the Insert caption feature with the Include chapter
   number option
 * Fix crash when inserting a copied image using `Ctrl`
@@ -3735,7 +3735,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 #### Presentation Editor
 
 * Fix stopping work of the editor when opening some `PPTX` files
-  ([DocumentServer#2591](https://github.com/ONLYOFFICE/DocumentServer/issues/2591))
+  ([DocumentServer#2591](https://github.com/OA Docs/DocumentServer/issues/2591))
 
 #### Forms
 
@@ -3775,7 +3775,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Fixed losing contents of the cell with an added comment after exporting to `ODS`
 * Fixed files corruption after converting some `DOC` files to `DOCX`
 * Fixed document appearance in another editors after export some `DOCX` files
-* Fixed data loss when converting some `DOC` to `DOCX` ([DocumentServer#2588](https://github.com/ONLYOFFICE/DocumentServer/issues/2588))
+* Fixed data loss when converting some `DOC` to `DOCX` ([DocumentServer#2588](https://github.com/OA Docs/DocumentServer/issues/2588))
 * Fixed stopping work of some `XLS` to `CSV` conversion
 * Fixed files corruption after converting some `ODS` files to `XLSX`
 * Fixed data loss on opening some `TXT` files
@@ -3938,7 +3938,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 #### Document Editor
 
-* Fixed crashing if equation contains "&" or "@" symbols ([DocumentServer#2455](https://github.com/ONLYOFFICE/DocumentServer/issues/2455))
+* Fixed crashing if equation contains "&" or "@" symbols ([DocumentServer#2455](https://github.com/OA Docs/DocumentServer/issues/2455))
 * Fixed crashing on transformation of some equations to Professional mode
 * Fixed hanging of the editor after copied data is inserted and equation is added
 * Fixed incorrect painting inserted Text Art
@@ -3962,7 +3962,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   context menu
 * Fixed print issue for Header/Footer
 * Fixed recalculation of `COUNTIFS` function if arguments were changed
-* Fixed incorrect calculating of `COUNTIFS` function ([DocumentServer#2459](https://github.com/ONLYOFFICE/DocumentServer/issues/2459))
+* Fixed incorrect calculating of `COUNTIFS` function ([DocumentServer#2459](https://github.com/OA Docs/DocumentServer/issues/2459))
 * Fixed displaying data in the Filter window in some `XLSX` files
 * Fixed appearance of the Sheet view mode when `High contrast` theme activated
 * Fixed reseting of the Page fields by Delete key in the Print dialog
@@ -4005,7 +4005,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 * Fixed hanging of the editor on opening some `XLSX` files
 * Fixed a conversion error of the `DOCX` file
-* Fixed incorrect page size after converting some `ODT` files to `DOCX` ([DocumentServer#2456](https://github.com/ONLYOFFICE/DocumentServer/issues/2456))
+* Fixed incorrect page size after converting some `ODT` files to `DOCX` ([DocumentServer#2456](https://github.com/OA Docs/DocumentServer/issues/2456))
 * Fixed the error after resaving some `ODS` files
 * Fixed an image loss after converting some `XML` files to `DOCX`
 * Fixed hang up on opening some `PDF` files created with LibreOffice
@@ -4119,8 +4119,8 @@ ApiFormRoles.prototype.MoveDown = function(name)
 #### Back-end
 
 * Add commands for working with `forgotten files`: `getForgotten`, `deleteForgotten`,
-  `getForgottenList` to [`coauthoring/CommandService.ashx`](https://api.onlyoffice.com/editors/command/)
-* Add the [conversion error](https://api.onlyoffice.com/editors/conversionapi#error-codes)
+  `getForgottenList` to [`coauthoring/CommandService.ashx`](https://github.com/rxbyes/DocumentServer)
+* Add the [conversion error](https://github.com/rxbyes/DocumentServer)
   -9 to Conversion API for displaying the editor selection dialog
 * Add parameters to the server config:
   `optionsCluster` (connection via
@@ -4129,7 +4129,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   [`ioredis`](https://github.com/redis/ioredis#cluster)
   for connection to the `redis cluster`
 * Add the `formdata` parameter, which contains `json` with data of
-  the submitted form, to [`Callback handler`](https://api.onlyoffice.com/editors/callback)
+  the submitted form, to [`Callback handler`](https://github.com/rxbyes/DocumentServer)
 * Add the `allowPrivateIPAddressForSignedRequests` flag, which prohibits
   requests via local links in the multitenancy mode, to the server config
 * Assigning license restrictions for tenants in the server multitenancy mode
@@ -4177,7 +4177,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   is being filled out in the next tab
 * Improve the algorithm for selecting a color name in the palette
   on the `Draw` tab
-* Fix using bitmap glyphs when Italic is enabled forcefully ([DocumentServer#2271](https://github.com/ONLYOFFICE/DocumentServer/issues/2271))
+* Fix using bitmap glyphs when Italic is enabled forcefully ([DocumentServer#2271](https://github.com/OA Docs/DocumentServer/issues/2271))
 * Fix displaying of an image used as the fill of a SmartArt object after
   saving a document
 * Fix an error when entering text into SmartArt after selecting
@@ -4191,13 +4191,13 @@ ApiFormRoles.prototype.MoveDown = function(name)
 * Limit the number of recent lists in the Recently used section
 * Fix offset of selection when moving to a monitor with different scaling
 * Fix reset of the `Copy style` action after the first use
-* Fix duplicating paragraph numbering in the document outline ([DocumentServer#2273](https://github.com/ONLYOFFICE/DocumentServer/issues/2273))
+* Fix duplicating paragraph numbering in the document outline ([DocumentServer#2273](https://github.com/OA Docs/DocumentServer/issues/2273))
 * Fix hanging of the editor after using `Mail Merge` and clicking
   on a paragraph
 * Fix hanging of the editor after removing a table and a paragraph
   in some `DOCX` documents
 * Fix hanging of the editor when using the Copy and Paste options
-  in some `DOCX` documents ([DocumentServer#2299](https://github.com/ONLYOFFICE/DocumentServer/issues/2299))
+  in some `DOCX` documents ([DocumentServer#2299](https://github.com/OA Docs/DocumentServer/issues/2299))
 * Fix displaying of the `Save as oform` and `Mark as favorite` toolbar icons
   for the interface scaling >200%
 * Fix an error when adding or updated the Table of Contents in the `DOCX` file
@@ -4215,7 +4215,7 @@ ApiFormRoles.prototype.MoveDown = function(name)
   the `Update automatically` parameter
 * Fix displaying of an image made in the Photo Editor plugin
 * Fix displaying of a watermark in the slide show mode, if the Settings
-  plugin is installed ([DocumentServer#1433](https://github.com/ONLYOFFICE/DocumentServer/issues/1433))
+  plugin is installed ([DocumentServer#1433](https://github.com/OA Docs/DocumentServer/issues/1433))
 
 #### Back-end
 
@@ -4335,13 +4335,13 @@ ApiFormRoles.prototype.MoveDown = function(name)
 
 * Add the support for the start_date parameter in the server license
   for supporting licenses which will work in the future
-* User with an empty `user id` is considered as [anonymous](https://api.onlyoffice.com/editors/anonymoususers)
+* User with an empty `user id` is considered as [anonymous](https://github.com/rxbyes/DocumentServer)
 
 #### WOPI
 
 * Add new parameters to `WOPI discovery`: [mobileView](https://learn.microsoft.com/en-us/microsoft-365/cloud-storage-partner-program/online/discovery#mobileview)
   and `mobileEdit` action for opening the mobile version of the editors
-  It works via the API type parameter: [mobile](https://api.onlyoffice.com/editors/config/#type)
+  It works via the API type parameter: [mobile](https://github.com/rxbyes/DocumentServer)
 
 #### Mobile
 
@@ -4402,7 +4402,7 @@ are marked as asynchronous
 
 * Fix the vulnerability CVE-2023-30186 with memory exhaustion
   during work with `NativeEngine` function (Bug #60433)
-* Fix crash when using Shift+← and Ctrl+→ in a graphical formula (Bug #60984) ([DocumentServer#2131](https://github.com/ONLYOFFICE/DocumentServer/issues/2131))
+* Fix crash when using Shift+← and Ctrl+→ in a graphical formula (Bug #60984) ([DocumentServer#2131](https://github.com/OA Docs/DocumentServer/issues/2131))
 * Fix distance between labels and the axis
 * Fix points label position (max min axis orientation)
 * Fix bug with picking symbol fonts (and new scheme for the symbols map)
@@ -4455,13 +4455,13 @@ are marked as asynchronous
 
 #### Spreadsheet Editor
 
-* Fix copying / pasting an image from an external source (Bug #60962) ([DocumentServer#2153](https://github.com/ONLYOFFICE/DocumentServer/issues/2153))
+* Fix copying / pasting an image from an external source (Bug #60962) ([DocumentServer#2153](https://github.com/OA Docs/DocumentServer/issues/2153))
 * Fix crash when opening the `XLSX` file (Bug #60926)
 * Fix selecting a sheet with Ctrl+Shift+Space (Bug #60932)
 * Fix crash when printing a workbook from version history (Bug #60973)
 * Fix updating links which contain spaces in their titles (Bug #60980)
 * Fix crash when opening a workbook for commenting (Bug #61052)
-* Fix display of dates when saving a workbook to the `ODS` format (Bug #61089) ([DocumentServer#2102](https://github.com/ONLYOFFICE/DocumentServer/issues/2102))
+* Fix display of dates when saving a workbook to the `ODS` format (Bug #61089) ([DocumentServer#2102](https://github.com/OA Docs/DocumentServer/issues/2102))
 * Fix removing a comment in the `ODS` file (Bug #61054)
 * Fix an error when opening the `XLSX` file (Bug #61406)
 * Fix crash when searching and replacing within the cell range (Bug #61572)
@@ -4469,7 +4469,7 @@ are marked as asynchronous
 #### Presentation Editor
 
 * Fix crash in a graphical formula (Bug #60939)
-* Fix display of the `WMF` image in the `PPTX` file (Bug #61090) ([DocumentServer#2100](https://github.com/ONLYOFFICE/DocumentServer/issues/2100))
+* Fix display of the `WMF` image in the `PPTX` file (Bug #61090) ([DocumentServer#2100](https://github.com/OA Docs/DocumentServer/issues/2100))
 * Fix crash when opening the paragraph advanced settings
   in the `PPTX` file (Bug #61363)
 * Fix crash when copying and autoshape and a graphical formula (Bug #61345)
@@ -4702,7 +4702,7 @@ are marked as asynchronous
 
 #### Document Editor
 
-* Fix the document bouncing in fast co-edit mode (Bug #59647) ([DocumentServer#1955](https://github.com/ONLYOFFICE/DocumentServer/issues/1955))
+* Fix the document bouncing in fast co-edit mode (Bug #59647) ([DocumentServer#1955](https://github.com/OA Docs/DocumentServer/issues/1955))
 * Fix ability to review the document by anonymous users (Bug #59592)
 * Fix changing `Unit of Measurement` property in `Advanced Settings` (Bug #59911)
 * Fix the problem with compiling text properties of paragraph numbering (Bug #59324)
@@ -4720,7 +4720,7 @@ are marked as asynchronous
 
 #### Presentation Editor
 
-* Fix applying auto-correction in the equations (Bug #59529) ([DocumentServer#1960](https://github.com/ONLYOFFICE/DocumentServer/issues/1960))
+* Fix applying auto-correction in the equations (Bug #59529) ([DocumentServer#1960](https://github.com/OA Docs/DocumentServer/issues/1960))
 
 #### Convert
 
@@ -4745,9 +4745,9 @@ are marked as asynchronous
 
 #### Docker
 
-* Fix port parsing from `amqp_uri` if host contains digits including IP (Bug #59483)([Docker-DocumentServer#215](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/215))
+* Fix port parsing from `amqp_uri` if host contains digits including IP (Bug #59483)([Docker-DocumentServer#215](https://github.com/OA Docs/Docker-DocumentServer/issues/215))
 * Add base image and PostgreSQL version build arguments
-* Fix errors when starting the container on CentOS 9 (Bug #59481)([Docker-DocumentServer#522](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/522))
+* Fix errors when starting the container on CentOS 9 (Bug #59481)([Docker-DocumentServer#522](https://github.com/OA Docs/Docker-DocumentServer/issues/522))
 
 #### Integration Example
 
@@ -4833,7 +4833,7 @@ are marked as asynchronous
 #### Back-end
 
 * Calling separate callback for each `pathurl` request
-* Fix forgotten migration ([DocumentServer#1911](https://github.com/ONLYOFFICE/DocumentServer/issues/1911))
+* Fix forgotten migration ([DocumentServer#1911](https://github.com/OA Docs/DocumentServer/issues/1911))
 * Set timeout for entire conversion
 * Add `pathurl` command to startRPC
 * Check connection status before sending changes
@@ -4858,7 +4858,7 @@ are marked as asynchronous
 
 * Update base image to `ubuntu:22.04`. Please update `docker-engine`
   to latest stable version (`20.10.21` as of writing this doc)
-* Fix build of image (Bug #59310)([Docker-DocumentServer#506](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/506))
+* Fix build of image (Bug #59310)([Docker-DocumentServer#506](https://github.com/OA Docs/Docker-DocumentServer/issues/506))
 
 #### Integration Example
 
@@ -5000,7 +5000,7 @@ are marked as asynchronous
 * Improve support of regexps in code like `String.replace(/\s/g, "")`
 * Improvements in `oRange.GetValue` and `oRange.GetValue2`
 * Dozens of new methods for different objects.
-  More detailed list at [here](https://api.onlyoffice.com/docbuilder/changelog)
+  More detailed list at [here](https://github.com/rxbyes/DocumentServer)
 * Fixes for several methods
 
 ### Fixes
@@ -5014,7 +5014,7 @@ are marked as asynchronous
 #### All Editors
 
 * Fix rendering list of fonts if there is a lot of fonts (Bug #46495)
-* Fix rendering of some Chinese fonts (Bug #48564)([DocumentServer#1142](https://github.com/ONLYOFFICE/DocumentServer/issues/1142))
+* Fix rendering of some Chinese fonts (Bug #48564)([DocumentServer#1142](https://github.com/OA Docs/DocumentServer/issues/1142))
 * Update help entries
 
 #### Document Editor
@@ -5147,7 +5147,7 @@ are marked as asynchronous
   `statusBar` -> `layout.statusBar`,
   `spellcheck` -> `features.spellcheck`
 * Ability to see the customer_id and the build type on index.html
-* A lot of other changes in API, described [here](https://api.onlyoffice.com/editors/changelog#71)
+* A lot of other changes in API, described [here](https://github.com/rxbyes/DocumentServer)
 
 #### Back end
 
@@ -5274,7 +5274,7 @@ are marked as asynchronous
 
 * Fix JS errors while copy chart from Document Editor
   to Presentation Editor (Bug #52844)
-* Fix `htmlutils.js` not found for `toolbarNoTabs` option (Bug #52849)([DocumentServer#1445](https://github.com/ONLYOFFICE/DocumentServer/issues/1445))
+* Fix `htmlutils.js` not found for `toolbarNoTabs` option (Bug #52849)([DocumentServer#1445](https://github.com/OA Docs/DocumentServer/issues/1445))
 
 #### Documents Editor
 
@@ -5335,7 +5335,7 @@ are marked as asynchronous
 
 #### Presentation Editor
 
-* Fix JS error while duplicate slide (Bug #52550)([DocumentServer#1423](https://github.com/ONLYOFFICE/DocumentServer/issues/1423))
+* Fix JS error while duplicate slide (Bug #52550)([DocumentServer#1423](https://github.com/OA Docs/DocumentServer/issues/1423))
 * Fix chart style select (Bug #52113)
 
 #### Back End
@@ -5444,7 +5444,7 @@ are marked as asynchronous
 
 #### Document Editor
 
-* Fix display data in `Navigation` panel (Bug #51297)([DocumentServer#1368](https://github.com/ONLYOFFICE/DocumentServer/issues/1368))
+* Fix display data in `Navigation` panel (Bug #51297)([DocumentServer#1368](https://github.com/OA Docs/DocumentServer/issues/1368))
 
 ## 6.3.1
 
@@ -5567,7 +5567,7 @@ are marked as asynchronous
 
 #### Docker
 
-* Fix instruction for using Let's Encrypt ([Docker-DocumentServer#349](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/349))
+* Fix instruction for using Let's Encrypt ([Docker-DocumentServer#349](https://github.com/OA Docs/Docker-DocumentServer/issues/349))
 
 ## 6.2.1
 
@@ -5576,7 +5576,7 @@ are marked as asynchronous
 #### Document Editor
 
 * Fix data loss after opening document reviewed by user (Bug #48920)
-  ([DocumentServer#1159](https://github.com/ONLYOFFICE/DocumentServer/issues/1159))
+  ([DocumentServer#1159](https://github.com/OA Docs/DocumentServer/issues/1159))
 * Fix JS error while entering text after cursor mouse move (Bug #49090)
 * Fix opening docx file with chart in MS Office (Bug #49219)
 
@@ -5586,7 +5586,7 @@ are marked as asynchronous
 
 #### Presentation Editor
 
-* Fix broken PPTX while opening in Microsoft PowerPoint (Bug #49258)([DocumentServer#1191](https://github.com/ONLYOFFICE/DocumentServer/issues/1191))
+* Fix broken PPTX while opening in Microsoft PowerPoint (Bug #49258)([DocumentServer#1191](https://github.com/OA Docs/DocumentServer/issues/1191))
 
 #### Integration
 
@@ -5656,14 +5656,14 @@ are marked as asynchronous
 #### Server
 
 * Fix missing `/info` page (Bug #47819)
-* Fix ??? symbols in chinese fonts (Bug #47995)([DocumentServer#1099](https://github.com/ONLYOFFICE/DocumentServer/issues/1099))
+* Fix ??? symbols in chinese fonts (Bug #47995)([DocumentServer#1099](https://github.com/OA Docs/DocumentServer/issues/1099))
 
 #### Installation
 
 * Once again fix problem with DB clean
   (`onlyoffice-documentserver.postinst: 124: [: false: unexpected operator`)
-  ([DocumentServer#1043](https://github.com/ONLYOFFICE/DocumentServer/issues/1043))
-  ([DocumentServer#1088](https://github.com/ONLYOFFICE/DocumentServer/issues/1088))
+  ([DocumentServer#1043](https://github.com/OA Docs/DocumentServer/issues/1043))
+  ([DocumentServer#1088](https://github.com/OA Docs/DocumentServer/issues/1088))
 
 #### x2t
 
@@ -5750,7 +5750,7 @@ are marked as asynchronous
 
 * Fix problem with DB clean
   (`onlyoffice-documentserver.postinst: 124: [: false: unexpected operator`)
-  ([DocumentServer#1043](https://github.com/ONLYOFFICE/DocumentServer/issues/1043))
+  ([DocumentServer#1043](https://github.com/OA Docs/DocumentServer/issues/1043))
 
 #### Back end
 
@@ -5872,7 +5872,7 @@ are marked as asynchronous
 
 #### x2t
 
-* Fix `SIGABR` on ODT color (Bug #46499)([DocumentServer#989](https://github.com/ONLYOFFICE/DocumentServer/issues/989))
+* Fix `SIGABR` on ODT color (Bug #46499)([DocumentServer#989](https://github.com/OA Docs/DocumentServer/issues/989))
 
 #### Back End
 
@@ -5953,7 +5953,7 @@ are marked as asynchronous
 * Fixed invalid icon in cells border menu (Bug #45910)
 * Fixed an error with copy and past format table in some XLSX files (Bug #45731)
 * Fixed an error with format table creation in some XLSX files (Bug #45773)
-* Fixed an error with entering big data in last partially view cell (Bug #45653)([DocumentServer#903](https://github.com/ONLYOFFICE/DocumentServer/issues/903))
+* Fixed an error with entering big data in last partially view cell (Bug #45653)([DocumentServer#903](https://github.com/OA Docs/DocumentServer/issues/903))
 
 #### Presentation Editor
 
@@ -5962,19 +5962,19 @@ are marked as asynchronous
 #### Mobile Editors
 
 * Fixed an issue with text selection on iOS devices (Bug #45844)
-* Fixed an error while presentation slides are swiping (Bug #42758)([DocumentServer#923](https://github.com/ONLYOFFICE/DocumentServer/issues/923))
+* Fixed an error while presentation slides are swiping (Bug #42758)([DocumentServer#923](https://github.com/OA Docs/DocumentServer/issues/923))
 * Fixed an appearance of first slide creating after theme was changed (Bug #45610)
 
 #### Back-end
 
 * Remove `redis` as dependency for Community Edition
   (it was not used, but required to install)
-* Fix logrotate command for Fedora-based Linux ([DocumentServer#902](https://github.com/ONLYOFFICE/DocumentServer/issues/902))
+* Fix logrotate command for Fedora-based Linux ([DocumentServer#902](https://github.com/OA Docs/DocumentServer/issues/902))
 * JWT: Fix uploading encrypted image
 * Fixed an issue with saving intermediate version while document
   is opened for view another user (Bug #45406)
 * Fix unexpected commands in collaboration editing
-* Fix sending Redis custom option (Commercial Version Only) ([DocumentServer#764](https://github.com/ONLYOFFICE/DocumentServer/issues/764))
+* Fix sending Redis custom option (Commercial Version Only) ([DocumentServer#764](https://github.com/OA Docs/DocumentServer/issues/764))
 * Changed a messages in license exceeding windows (Bug #45819)
 * Fixed an conversion error while opening ePub and HTML files on CentOS 7 (Bug #31323).
 * Fixed deb package `postinstall` typo.
@@ -6031,7 +6031,7 @@ are marked as asynchronous
 #### Spreadsheet Editor
 
 * Data validation fixes and improvements.
-* Fixed a crash on opening some XLSX files (Bug #45093, [Documentserver#833](https://github.com/ONLYOFFICE/DocumentServer/issues/833))
+* Fixed a crash on opening some XLSX files (Bug #45093, [Documentserver#833](https://github.com/OA Docs/DocumentServer/issues/833))
 * Fixed filling cells with formula in R1C1 mode (Bug #44730)
 * Fixed recalculating formulas in some XLSX files (Bug #45368)
 * Fixed XSS injection in data validation tip (Bug #45112)
@@ -6087,7 +6087,7 @@ are marked as asynchronous
 
 #### All Editors
 
-* Fixed an issue with missing 1.5x icons ([DocumentServer#812](https://github.com/ONLYOFFICE/DocumentServer/issues/812))
+* Fixed an issue with missing 1.5x icons ([DocumentServer#812](https://github.com/OA Docs/DocumentServer/issues/812))
 * Bulgarian, Chinese, Czech, Deutsch, French, Italian, Russian, Spanish, Turkish
   localization improvements
 * Added support of Danish, Finnish, Hungarian, Indonesian, Norwegian, Swedish localization
@@ -6106,7 +6106,7 @@ are marked as asynchronous
 #### Back-end
 
 * Reading license file disabled in Community Edition
-* Fixed an issue with missing license file in log files (bug #44694), ([DocumentServer#814](https://github.com/ONLYOFFICE/DocumentServer/issues/814))
+* Fixed an issue with missing license file in log files (bug #44694), ([DocumentServer#814](https://github.com/OA Docs/DocumentServer/issues/814))
 * Fixed some database-related security issues (CVE-2020-11537)
 * Fix mariadb support
 * Database optimization for better performance
@@ -6173,7 +6173,7 @@ are marked as asynchronous
 
 * Mobile editors available only for paid version
 * Ability to save custom colors
-* ONLYOFFICE logo added to header (with ability to customize it)
+* OA Docs logo added to header (with ability to customize it)
 
 #### Package
 
@@ -6300,12 +6300,12 @@ are marked as asynchronous
 
 #### Plugins
 
-* Fix Thesaurus plugin ([sdkjs-plugins#78](https://github.com/ONLYOFFICE/sdkjs-plugins/issues/78))
+* Fix Thesaurus plugin ([sdkjs-plugins#78](https://github.com/OA Docs/sdkjs-plugins/issues/78))
 * OCR uses remote scripts
 
 #### document-server-integration
 
-* Fix `Open File location` on custom port ([document-server-integration#63](https://github.com/ONLYOFFICE/document-server-integration/issues/63))
+* Fix `Open File location` on custom port ([document-server-integration#63](https://github.com/OA Docs/document-server-integration/issues/63))
 
 #### x2t
 
@@ -6313,9 +6313,9 @@ are marked as asynchronous
 
 * Fix fonts picker bugs
 * Support flv format
-* Fix display some UTF font names (bug #42926) ([DocumentServer#651](https://github.com/ONLYOFFICE/DocumentServer/issues/651))
+* Fix display some UTF font names (bug #42926) ([DocumentServer#651](https://github.com/OA Docs/DocumentServer/issues/651))
 * Fix GenerateGuid
-* Fix building of ICU ([DocumentServer#656](https://github.com/ONLYOFFICE/DocumentServer/issues/656))
+* Fix building of ICU ([DocumentServer#656](https://github.com/OA Docs/DocumentServer/issues/656))
 
 ##### doc
 
@@ -6351,8 +6351,8 @@ are marked as asynchronous
 
 #### Docker
 
-* Fix token not working correctly with docker-compose ([Docker-DocumentServer#175](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/175))
-* Fix amp ssl links ([Docker-DocumentServer#183](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/183))
+* Fix token not working correctly with docker-compose ([Docker-DocumentServer#175](https://github.com/OA Docs/Docker-DocumentServer/issues/175))
+* Fix amp ssl links ([Docker-DocumentServer#183](https://github.com/OA Docs/Docker-DocumentServer/issues/183))
 
 ## 5.4.0
 
@@ -6468,13 +6468,13 @@ are marked as asynchronous
 
 #### All Editors
 
-* Fix order of spellchecker correction entries ([DesktopEditors#224](https://github.com/ONLYOFFICE/DesktopEditors/issues/224))
+* Fix order of spellchecker correction entries ([DesktopEditors#224](https://github.com/OA Docs/DesktopEditors/issues/224))
 
 #### Document Editor
 
 * Fix JS error while undo insert empty row in table (bug #41995)
 * Fix the problem with adding an equation inside a hyperlink
-* Fix composite input in Firefox ([DocumentServer#601](https://github.com/ONLYOFFICE/DocumentServer/issues/601))
+* Fix composite input in Firefox ([DocumentServer#601](https://github.com/OA Docs/DocumentServer/issues/601))
 * Fix crash while opening file with math created by aspose
 
 #### Presentation Editor
@@ -6543,7 +6543,7 @@ are marked as asynchronous
 #### All Editors
 
 * Fix a lot of bugs with drawings positioning
-* Fix build on actual gcc ([DocumentServer#575](https://github.com/ONLYOFFICE/DocumentServer/issues/575))
+* Fix build on actual gcc ([DocumentServer#575](https://github.com/OA Docs/DocumentServer/issues/575))
 
 #### Document Editor
 
@@ -6583,8 +6583,8 @@ are marked as asynchronous
 
 #### Docker
 
-* Fix docker compose startup error ([Docker-DocumentServer#163](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/163))
-* Fix DocumentBuilder return "urls": {} if `/var/lib/onlyoffice` mounted ([Docker-DocumentServer#164](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/164))
+* Fix docker compose startup error ([Docker-DocumentServer#163](https://github.com/OA Docs/Docker-DocumentServer/issues/163))
+* Fix DocumentBuilder return "urls": {} if `/var/lib/onlyoffice` mounted ([Docker-DocumentServer#164](https://github.com/OA Docs/Docker-DocumentServer/issues/164))
 
 ## 5.3.0
 
@@ -6657,7 +6657,7 @@ are marked as asynchronous
 
 * Update copyrights to 2019 and actual Latvian address
 * Update npm-shrinkwrap to actual
-* Chinese as document language (without spellchecker) ([DocumentServer#479](https://github.com/ONLYOFFICE/DocumentServer/issues/479))
+* Chinese as document language (without spellchecker) ([DocumentServer#479](https://github.com/OA Docs/DocumentServer/issues/479))
 * Updated translations
 
 #### Plugins
@@ -6688,8 +6688,8 @@ are marked as asynchronous
 
 * Fix color change after Convert to range for table (bug #38747)
 * Fix display cell value in Safari (bug #39878),
-  ([DocumentServer#477](https://github.com/ONLYOFFICE/DocumentServer/issues/477)),
-  ([DocumentServer#467](https://github.com/ONLYOFFICE/DocumentServer/issues/467))
+  ([DocumentServer#477](https://github.com/OA Docs/DocumentServer/issues/477)),
+  ([DocumentServer#467](https://github.com/OA Docs/DocumentServer/issues/467))
 * Fix display hidden column (bug #40352)
 * Fix creating history point on signatureLine adding
 * Fix display values of second sheet on first sheet (bug #40038)
@@ -6708,7 +6708,7 @@ are marked as asynchronous
 
 #### Back-end
 
-* Fix problem with jwt callback url ([DocumentServer#472](https://github.com/ONLYOFFICE/DocumentServer/issues/472))
+* Fix problem with jwt callback url ([DocumentServer#472](https://github.com/OA Docs/DocumentServer/issues/472))
 
 #### x2t
 
@@ -6886,7 +6886,7 @@ are marked as asynchronous
 * Fix opening file with 'si', 'formula' without 'ref'
 * Fix opening specific file with chart (bug #39902)
 * Fix js error while copy specific sheet in file (bug #39921)
-* Fix chinese translation for "textPoweredBy" (([web-apps#142](https://github.com/ONLYOFFICE/web-apps/pull/142)))
+* Fix chinese translation for "textPoweredBy" (([web-apps#142](https://github.com/OA Docs/web-apps/pull/142)))
 
 #### Presentation Editors
 
@@ -6920,8 +6920,8 @@ are marked as asynchronous
 
 #### Docker Image
 
-* Fix Docker-compose 503 Service Unavailable ([Docker-DocumentServer#133](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/133))
-* Fix `DB_NAME` issue ([Docker-DocumentServer#134](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/134))
+* Fix Docker-compose 503 Service Unavailable ([Docker-DocumentServer#133](https://github.com/OA Docs/Docker-DocumentServer/issues/133))
+* Fix `DB_NAME` issue ([Docker-DocumentServer#134](https://github.com/OA Docs/Docker-DocumentServer/issues/134))
 * Fix log rotation
 
 ## 5.2.3
@@ -7039,7 +7039,7 @@ are marked as asynchronous
 
 #### Docker Image
 
-* Fix `‘/var/run/rabbitmq’: Permission denied` on container restart ([Docker-DocumentServer#92](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/92))
+* Fix `‘/var/run/rabbitmq’: Permission denied` on container restart ([Docker-DocumentServer#92](https://github.com/OA Docs/Docker-DocumentServer/issues/92))
 * Remove volume `/etc/onlyoffice`  (fix start on `minishift`)
 * Setup logrotate config rights
 
@@ -7049,7 +7049,7 @@ are marked as asynchronous
 
 #### rpm
 
-* Fix `DS_PORT` problem while installing with `ONLYOFFICE Enterprise Edition`
+* Fix `DS_PORT` problem while installing with `OA Docs Enterprise Edition`
 
 ## 5.2.1
 
@@ -7122,7 +7122,7 @@ are marked as asynchronous
 * Rename crypted->encrypted, transfer replyStr to saveUrl handler
 * Add savefile request handler
 * [chat] Add useridoriginal to all messages
-* [lock] Use userId instead of sessionId in locks ([server#91](https://github.com/ONLYOFFICE/server/pull/91))
+* [lock] Use userId instead of sessionId in locks ([server#91](https://github.com/OA Docs/server/pull/91))
 * Add faked file type for PDFA
 * [config] Add spawnOptions for x2t
 * Use title param in ConvertService.ashx
@@ -7176,7 +7176,7 @@ are marked as asynchronous
 #### Server
 
 * Fix max file size for convert (bug #37559)
-* Fix installation on any linux system by using `useradd` ([server#89](https://github.com/ONLYOFFICE/server/pull/89))
+* Fix installation on any linux system by using `useradd` ([server#89](https://github.com/OA Docs/server/pull/89))
 * Fix fillForms mode
 * Fix healthcheck service in case of disconnected redis or rabbitmq
 * [jwt] Do not reduce authorization header in case of inBody option
@@ -7238,12 +7238,12 @@ are marked as asynchronous
 
 * Fix copy-paste placeholder in fast coedit (bug #37922)
 * Fix bug copy/paste slide with picture (bug #37928)
-* Fix placeholder titles in Chinese (bug #37927) ([onlyoffice-owncloud#189](https://github.com/ONLYOFFICE/onlyoffice-owncloud/issues/189))
+* Fix placeholder titles in Chinese (bug #37927) ([onlyoffice-owncloud#189](https://github.com/OA Docs/onlyoffice-owncloud/issues/189))
 
 #### Mobile Editors
 
 * Fix browser hangup while adding shapes (bug #37601)
-* Fix js error in specific xlsx file (bug #37824) ([DocumentServer#311](https://github.com/ONLYOFFICE/DocumentServer/issues/311))
+* Fix js error in specific xlsx file (bug #37824) ([DocumentServer#311](https://github.com/OA Docs/DocumentServer/issues/311))
 * Fix incorrect info while loading document (bug #37687)
 * Fix closing document while pressing `Back` button (bug #37649)
 * Fix settings icon placement (bug #37738)
@@ -7254,7 +7254,7 @@ are marked as asynchronous
 
 #### Docker
 
-* Fix recursive gzip on container restart ([DocumentServer#317](https://github.com/ONLYOFFICE/DocumentServer/issues/317))
+* Fix recursive gzip on container restart ([DocumentServer#317](https://github.com/OA Docs/DocumentServer/issues/317))
 
 #### Convert Services
 
@@ -7264,8 +7264,8 @@ are marked as asynchronous
 
 #### x2t
 
-* Fix shape position in xls ([DocumentServer#308](https://github.com/ONLYOFFICE/DocumentServer/issues/308)))
-* Fix losing document after reopen xlsx file (bug #37892) ([DocumentServer#316](https://github.com/ONLYOFFICE/DocumentServer/issues/316))
+* Fix shape position in xls ([DocumentServer#308](https://github.com/OA Docs/DocumentServer/issues/308)))
+* Fix losing document after reopen xlsx file (bug #37892) ([DocumentServer#316](https://github.com/OA Docs/DocumentServer/issues/316))
 * Fix open file with unknown picture format
 
 ##### odf
@@ -7325,7 +7325,7 @@ are marked as asynchronous
 #### Document Editor
 
 * Fix getting parent cell in blocklevelstd
-* Fix justify chinese text (#37659) [DocumentServer#293](https://github.com/ONLYOFFICE/DocumentServer/issues/293))
+* Fix justify chinese text (#37659) [DocumentServer#293](https://github.com/OA Docs/DocumentServer/issues/293))
 * Fix focus problem with navigation sidebar in Firefox (#37460)
 * Fix setting option Realtime collaboration changes to "View All"
 * Fix protected document window layout (#37658)
@@ -7385,7 +7385,7 @@ are marked as asynchronous
 
 #### Document Editor
 
-* Implement an East Asian script and line break in hieroglyphs ([sdkjs#300](https://github.com/ONLYOFFICE/sdkjs/pull/304))
+* Implement an East Asian script and line break in hieroglyphs ([sdkjs#300](https://github.com/OA Docs/sdkjs/pull/304))
 * Add hotkey Ctrl+Shift+Num8 - show/hide non printable symbols
 * Add ability to export documents to RTF
 
@@ -7400,7 +7400,7 @@ are marked as asynchronous
 
 #### Document Builder
 
-* Add function to get the width of the current column ([sdkjs#315](https://github.com/ONLYOFFICE/sdkjs/pull/315))
+* Add function to get the width of the current column ([sdkjs#315](https://github.com/OA Docs/sdkjs/pull/315))
 
 #### Back-End
 
@@ -7408,7 +7408,7 @@ are marked as asynchronous
 
 #### Mobile Editors
 
-* Ability to go to editing mode from toolbar ([web-apps#135](https://github.com/ONLYOFFICE/web-apps/pull/135))
+* Ability to go to editing mode from toolbar ([web-apps#135](https://github.com/OA Docs/web-apps/pull/135))
 
 #### Integration Example
 
@@ -7418,23 +7418,23 @@ are marked as asynchronous
 
 #### All editors
 
-* Improve compatibility with IE11 ([sdkjs#302](https://github.com/ONLYOFFICE/sdkjs/pull/302))
-  ([sdkjs#317](https://github.com/ONLYOFFICE/sdkjs/pull/317))
-* Fix downloading specific docx file (#37454) ([sdkjs#300](https://github.com/ONLYOFFICE/sdkjs/pull/300))
-* Fix crash on opening files with empty pie charts ([sdkjs#318](https://github.com/ONLYOFFICE/sdkjs/pull/318))
+* Improve compatibility with IE11 ([sdkjs#302](https://github.com/OA Docs/sdkjs/pull/302))
+  ([sdkjs#317](https://github.com/OA Docs/sdkjs/pull/317))
+* Fix downloading specific docx file (#37454) ([sdkjs#300](https://github.com/OA Docs/sdkjs/pull/300))
+* Fix crash on opening files with empty pie charts ([sdkjs#318](https://github.com/OA Docs/sdkjs/pull/318))
 
 #### Document Editor
 
 * Fix displaying table after html convert (#37472)
 * Fix adding comment to whole doc (#37425,
-  [DocumentServer#287](https://github.com/ONLYOFFICE/DocumentServer/issues/287))
-  ([sdkjs#319](https://github.com/ONLYOFFICE/sdkjs/pull/319))
-* Fix copy Rich Text Content from table (#37546) ([sdkjs#320](https://github.com/ONLYOFFICE/sdkjs/pull/320))
+  [DocumentServer#287](https://github.com/OA Docs/DocumentServer/issues/287))
+  ([sdkjs#319](https://github.com/OA Docs/sdkjs/pull/319))
+* Fix copy Rich Text Content from table (#37546) ([sdkjs#320](https://github.com/OA Docs/sdkjs/pull/320))
 
 #### Spreadsheet Editor
 
-* Fix formula dependency and file assemble after add col/row ([sdkjs#312](https://github.com/ONLYOFFICE/sdkjs/pull/312))
-* Fix opening specific xlsx file (#37515) ([sdkjs#316](https://github.com/ONLYOFFICE/sdkjs/pull/316))
+* Fix formula dependency and file assemble after add col/row ([sdkjs#312](https://github.com/OA Docs/sdkjs/pull/312))
+* Fix opening specific xlsx file (#37515) ([sdkjs#316](https://github.com/OA Docs/sdkjs/pull/316))
 
 #### Mobile Document Editor
 
@@ -7446,9 +7446,9 @@ are marked as asynchronous
 
 #### x2t
 
-* Fix doc users files with table ([core#71](https://github.com/ONLYOFFICE/core/pull/71))
-* Fix opening docx, pptx, rtf, odf usersfiles ([core#75](https://github.com/ONLYOFFICE/core/pull/75))
-  ([core#76](https://github.com/ONLYOFFICE/core/pull/76))
+* Fix doc users files with table ([core#71](https://github.com/OA Docs/core/pull/71))
+* Fix opening docx, pptx, rtf, odf usersfiles ([core#75](https://github.com/OA Docs/core/pull/75))
+  ([core#76](https://github.com/OA Docs/core/pull/76))
 
 ## 5.1.2
 
@@ -7468,20 +7468,20 @@ are marked as asynchronous
 
 * Fix crash on loading document in Safari 11.1
 * Fix undo after copy paste in coedit (bug #37424)
-* Fix problems with some thai symbols (bug #37446) ([sdkjs#297](https://github.com/ONLYOFFICE/sdkjs/pull/297))
+* Fix problems with some thai symbols (bug #37446) ([sdkjs#297](https://github.com/OA Docs/sdkjs/pull/297))
 
 #### Document Editor
 
-* Fix changing labels of Content Control ([sdkjs#296](https://github.com/ONLYOFFICE/sdkjs/pull/296))
-* Fix crash on pdf reconnect or check idle ([sdkjs#291](https://github.com/ONLYOFFICE/sdkjs/pull/291))
-* Fix search text in drawing formats ([sdkjs#292](https://github.com/ONLYOFFICE/sdkjs/pull/292))
-* Fix problem with loading pdf renamed to docx ([sdkjs#295](https://github.com/ONLYOFFICE/sdkjs/pull/295))
+* Fix changing labels of Content Control ([sdkjs#296](https://github.com/OA Docs/sdkjs/pull/296))
+* Fix crash on pdf reconnect or check idle ([sdkjs#291](https://github.com/OA Docs/sdkjs/pull/291))
+* Fix search text in drawing formats ([sdkjs#292](https://github.com/OA Docs/sdkjs/pull/292))
+* Fix problem with loading pdf renamed to docx ([sdkjs#295](https://github.com/OA Docs/sdkjs/pull/295))
 
 #### Spreadsheet Editor
 
 * Fix copy paste in OpenSource menu (bug #37426)
 * Fix Spanish formulas translations
-* Fix open pivot tables with VALUES ([sdkjs#298](https://github.com/ONLYOFFICE/sdkjs/pull/298))
+* Fix open pivot tables with VALUES ([sdkjs#298](https://github.com/OA Docs/sdkjs/pull/298))
 
 #### Presentation Editor
 
@@ -7489,7 +7489,7 @@ are marked as asynchronous
 
 #### Back-end
 
-* Fix file corruption after restore connection when version is assembled ([server#80](https://github.com/ONLYOFFICE/server/pull/80))
+* Fix file corruption after restore connection when version is assembled ([server#80](https://github.com/OA Docs/server/pull/80))
 
 #### x2t
 
@@ -7787,7 +7787,7 @@ are marked as asynchronous
 
 #### Plugins
 
-* Fix calling plugins in non-tabbed interface [Docker-DocumentServer#84](https://github.com/ONLYOFFICE/Docker-DocumentServer/issues/84)
+* Fix calling plugins in non-tabbed interface [Docker-DocumentServer#84](https://github.com/OA Docs/Docker-DocumentServer/issues/84)
 * Fix crash on unknown ole-object resize
 * Yandex.Translate add progress bar
 
@@ -8044,8 +8044,8 @@ are marked as asynchronous
 
 #### Spreadsheet Viewer
 
-* Fix not working keys in IE11 ([DocumentServer#107](https://github.com/ONLYOFFICE/DocumentServer/issues/107))
-* Fix COUNTIF formula ignores TRUE and FALSE ([DocumentServer#151](https://github.com/ONLYOFFICE/DocumentServer/issues/151))
+* Fix not working keys in IE11 ([DocumentServer#107](https://github.com/OA Docs/DocumentServer/issues/107))
+* Fix COUNTIF formula ignores TRUE and FALSE ([DocumentServer#151](https://github.com/OA Docs/DocumentServer/issues/151))
 * Fix conditional formatting bugs
 
 #### x2t
@@ -8073,7 +8073,7 @@ are marked as asynchronous
 #### Spreadsheet Editor
 
 * Fix change shape size by yellow markers (bug #35451)
-* Fix case sensitive VLOOKUP and HLOOKUP (bug #35528, [DocumentServer#140](https://github.com/ONLYOFFICE/DocumentServer/issues/140))
+* Fix case sensitive VLOOKUP and HLOOKUP (bug #35528, [DocumentServer#140](https://github.com/OA Docs/DocumentServer/issues/140))
 
 #### Presentation Editor
 
@@ -8124,7 +8124,7 @@ are marked as asynchronous
 * Fix connector losing shape after moving shape in group (bug #35317)
 * Fix disconnecting connect after ungrouping (bug #35316)
 * Fix hidden markers for connector on chart and image (bug #35300)
-* Fix cell link after copy paste (bug #35362, [DocumentServer#122](https://github.com/ONLYOFFICE/DocumentServer/issues/122))
+* Fix cell link after copy paste (bug #35362, [DocumentServer#122](https://github.com/OA Docs/DocumentServer/issues/122))
 * A lot of fixes in translations
 
 #### Mobile Document Editor
@@ -8236,7 +8236,7 @@ are marked as asynchronous
 
 #### Spreadsheet Editor
 
-* Fix duplicate text after carriage return [DocumentServer#109](https://github.com/ONLYOFFICE/DocumentServer/issues/109)
+* Fix duplicate text after carriage return [DocumentServer#109](https://github.com/OA Docs/DocumentServer/issues/109)
 
 ## 4.4.0
 
@@ -8267,7 +8267,7 @@ are marked as asynchronous
 
 #### Spreadsheet Editor
 
-* Limit to 1000 cell styles [DocumentServer#113](https://github.com/ONLYOFFICE/DocumentServer/issues/113)
+* Limit to 1000 cell styles [DocumentServer#113](https://github.com/OA Docs/DocumentServer/issues/113)
 * Fix adding spacing while copying from Excel
 * Fix chart axis position
 
@@ -8281,7 +8281,7 @@ are marked as asynchronous
 
 #### Editors
 
-* Fix open error if sdk loads before fonts [sdkjs#118](https://github.com/ONLYOFFICE/sdkjs/pull/118)
+* Fix open error if sdk loads before fonts [sdkjs#118](https://github.com/OA Docs/sdkjs/pull/118)
 * Fix showing shape without gradient angle (bug #34887)
 * Show correct limited functionality notification in IE 9, IE 10
 
@@ -8459,11 +8459,11 @@ are marked as asynchronous
 
 #### Spreadsheet Editor
 
-* Fixed an issue with absolute reference when inserting a new row (ONLYOFFICE/DocumentServer#41)
-* Fixed an issue with onDocumentStateChange event (ONLYOFFICE/DocumentServer#88)
-* Fixed an issue with formulas translation (ONLYOFFICE/DesktopEditors#23)
-* Fixed an issue with password-protected xlsx (ONLYOFFICE/DesktopEditors#24)
-* Fixed an issue with non-breaking space (ONLYOFFICE/DesktopEditors#26)
+* Fixed an issue with absolute reference when inserting a new row (OA Docs/DocumentServer#41)
+* Fixed an issue with onDocumentStateChange event (OA Docs/DocumentServer#88)
+* Fixed an issue with formulas translation (OA Docs/DesktopEditors#23)
+* Fixed an issue with password-protected xlsx (OA Docs/DesktopEditors#24)
+* Fixed an issue with non-breaking space (OA Docs/DesktopEditors#26)
 * Fixed an issue with AVERAGEA formula with text format
 * Fixed an issue with broken workbook after list copy (bug #33588)
 * Fixed an issue with formula recalculation by F4 hotkey (bug #32901)
@@ -8693,11 +8693,11 @@ are marked as asynchronous
 
 #### Spreadsheet Editor
 
-* Fixed issue [#63](https://github.com/ONLYOFFICE/DocumentServer/issues/63)
+* Fixed issue [#63](https://github.com/OA Docs/DocumentServer/issues/63)
 
 #### x2t
 
-* Fixed issue [#55](https://github.com/ONLYOFFICE/DocumentServer/issues/55)
+* Fixed issue [#55](https://github.com/OA Docs/DocumentServer/issues/55)
 
 ## 4.1.8
 

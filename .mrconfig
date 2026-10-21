@@ -3,46 +3,46 @@ git = git $@
 hub = hub $@
 
 [core]
-checkout = git clone git@github.com:ONLYOFFICE/core.git
+checkout = git clone git@github.com:OA Docs/core.git
 
 [core-ext]
-checkout = git clone git@github.com:ONLYOFFICE/core-ext.git
+checkout = git clone git@github.com:OA Docs/core-ext.git
 
 [core-fonts]
-checkout = git clone git@github.com:ONLYOFFICE/core-fonts.git
+checkout = git clone git@github.com:OA Docs/core-fonts.git
 
 [desktop-sdk]
-checkout = git clone git@github.com:ONLYOFFICE/desktop-sdk.git
+checkout = git clone git@github.com:OA Docs/desktop-sdk.git
 
 [dictionaries]
-checkout = git clone git@github.com:ONLYOFFICE/dictionaries.git
+checkout = git clone git@github.com:OA Docs/dictionaries.git
 
 [Docker-DocumentServer]
-checkout = git clone git@github.com:ONLYOFFICE/Docker-DocumentServer.git
+checkout = git clone git@github.com:OA Docs/Docker-DocumentServer.git
 
 [document-formats]
-checkout = git clone git@github.com:ONLYOFFICE/document-formats.git
+checkout = git clone git@github.com:OA Docs/document-formats.git
 
 [document-server-integration]
-checkout = git clone git@github.com:ONLYOFFICE/document-server-integration.git
+checkout = git clone git@github.com:OA Docs/document-server-integration.git
 
 [document-server-package]
-checkout = git clone git@github.com:ONLYOFFICE/document-server-package.git
+checkout = git clone git@github.com:OA Docs/document-server-package.git
 
 [document-templates]
-checkout = git clone git@github.com:ONLYOFFICE/document-templates.git
+checkout = git clone git@github.com:OA Docs/document-templates.git
 
 [sdkjs]
-checkout = git clone git@github.com:ONLYOFFICE/sdkjs.git
+checkout = git clone git@github.com:OA Docs/sdkjs.git
 
 [sdkjs-plugins]
-checkout = git clone git@github.com:ONLYOFFICE/sdkjs-plugins.git
+checkout = git clone git@github.com:OA Docs/sdkjs-plugins.git
 
 [server]
-checkout = git clone git@github.com:ONLYOFFICE/server.git
+checkout = git clone git@github.com:OA Docs/server.git
 
 [web-apps]
-checkout = git clone git@github.com:ONLYOFFICE/web-apps.git
+checkout = git clone git@github.com:OA Docs/web-apps.git
 
 [web-apps-pro]
-checkout = git clone git@github.com:ONLYOFFICE/web-apps-pro.git
+checkout = git clone git@github.com:OA Docs/web-apps-pro.git
